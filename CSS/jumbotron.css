@@ -1,0 +1,26 @@
+.jumbotron {
+    background: url(../assets/shoes.jpg) fixed;
+    background-color: var(--eggplant);
+    background-size: cover;
+    height: 80vh;    
+}
+/* moves the content down */
+.jumbo-container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.jumbo-header {
+    font-family: var(--font-one);
+    font-size: 100px;
+    color: var(--blush);
+}
+
+.jumbo-para {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--font-two);
+    font-style: italic;
+    color: var(--offWhite);
+}
+

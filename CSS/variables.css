@@ -1,6 +1,25 @@
 :root {
-    --pink: ;
+    --eggplant: #4F4846;
+    --blush: #E8CEBF;
+    --peach: #DDAF94;
+    --offWhite: #FDF8F5;
+
+    --font-one: 'Open Sans', sans-serif;
+    --font-two: 'Quicksand', sans-serif;
+    --font-three: 'Great Vibes', cursive;
 }
+
+/*  FONTS
+    Varela Round
+    Comfortaa
+    open sans - paragraphs
+    quicksand - san serif
+    wire one - san serif, condensed
+    Major Mono Display
+
+    Great Vibes - handwriting for quotes
+    Homemade Apple - handwriting, chalky
+*/
 
 /*  #DDAF94 - PEACH, MAKEUP TAN
     #E8CEBF - BEIGH, BLUSH
