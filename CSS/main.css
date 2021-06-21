@@ -3,7 +3,3 @@
 @import "navbar.css";
 @import "variables.css";
 @import "content.css";
-
-.body {
-    background: red;
-}
