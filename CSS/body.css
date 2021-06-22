@@ -6,35 +6,6 @@ body {
 
 footer {
     margin-top: auto;
+    padding-top: 0;
 }
 
-.about-content {
-    text-align: center;
-    padding-top: 10%;
-    /* padding-bottom: 5%; IS THIS DOING ANYTHING*/
-}
-
-.about-content h3 {
-    font-family: var(--font-two);
-    letter-spacing: 5px;
-}
-
-.about-skills-p {
-    font-family: var(--font-one);
-    font-size: 36px;
-    line-height: 16px;
-    text-align: end;
-}
-
-.about-skills-b {
-    font-family: var(--font-one);
-    font-size: 16px;
-    line-height: 18px;
-    text-align: justify;
-
-}
-
-.portfolio {
-    align-items: center;
-    padding-top: 10%;
-}
