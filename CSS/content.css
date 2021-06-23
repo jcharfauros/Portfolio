@@ -1,3 +1,4 @@
+/* ABOUT SECTION */
 .about-content {
     color: var(--green);
     text-align: center;
@@ -22,24 +23,23 @@
     text-align: end;
 }
 
-.about-skills-b {
+.about-skills-b { 
     font-family: var(--font-one);
     font-size: 16px;
     line-height: 18px;
     text-align: justify;
 
 }
-
+/* PORTFOLIO SECTION */
 .portfolio {
     background: var(--eggplant);
     align-items: center;
-    text-align: center;
-    padding-top: 10%;    
+    text-align: center;    
+    padding-top: 5%;    
+    padding-bottom: 5%;   
 }
 
-.portfolio-row-2 {
-    background: var(--eggplant);
-    align-items: center;
-    text-align: center;
-    padding-top: 20px;    
+.myArt {
+    padding-top: 10%;
+    background: var(--offWhite);
 }
