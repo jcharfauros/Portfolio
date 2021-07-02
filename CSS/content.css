@@ -30,6 +30,14 @@
     text-align: justify;
 
 }
+
+.about-skills-b2 { 
+    font-family: var(--font-one);
+    font-size: 26px;
+    line-height: 22px;
+    text-align: left;
+
+}
 /* PORTFOLIO SECTION */
 .portfolio {
     background: var(--eggplant);
@@ -39,7 +47,18 @@
     padding-bottom: 5%;   
 }
 
-.myArt {
+#portfolio-row-two {
+    padding-top: 10px;
+}
+
+.art {
     padding-top: 10%;
+    padding-bottom: 10%;
     background: var(--offWhite);
+    /* margin: auto; */
+}
+
+.art img{
+    max-width: 50%;
+    margin: auto;
 }
