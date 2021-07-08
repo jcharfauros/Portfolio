@@ -9,3 +9,7 @@ footer {
     padding-top: 0;
 }
 
+h1 {
+    font-family: var(--font-two);
+}
+

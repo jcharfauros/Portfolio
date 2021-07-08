@@ -2,8 +2,13 @@
 .about-content {
     color: var(--green);
     text-align: center;
-    padding-top: 20%;
-    padding-bottom: 20%;    
+    padding-top: 5%;
+    padding-bottom: 5%;    
+}
+
+.about-content img {
+    max-width: 300px;
+    border-radius: 50%;
 }
 
 .about-content h1 {
@@ -33,7 +38,7 @@
 
 .about-skills-b2 { 
     font-family: var(--font-one);
-    font-size: 26px;
+    font-size: 22px;
     line-height: 22px;
     text-align: left;
 
@@ -41,24 +46,70 @@
 /* PORTFOLIO SECTION */
 .portfolio {
     background: var(--eggplant);
+    color: var(--peach);
     align-items: center;
     text-align: center;    
-    padding-top: 5%;    
+    padding-top: 10%;
     padding-bottom: 5%;   
+}
+
+#portfolio-row-one {
+    padding-top: 20px;
 }
 
 #portfolio-row-two {
     padding-top: 10px;
 }
 
+.card {
+    border-radius: 40px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+/* art section */
 .art {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 7%;
     background: var(--offWhite);
-    /* margin: auto; */
+}
+
+.art h1 {
+    color: var(--green);
+    text-align: center;    
 }
 
 .art img{
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
+}
+
+#art-section-img {
+    max-width: 400px;
+}
+
+.contact-me {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: var(--green);
+    color: var(--peach);
+    font-family: var(--font-two);
+    font-size: 24px;
+    font-weight: bolder;
+    /* text-align: center;     */
+}
+
+.contact-me h1 {
+    color: var(--offWhite);
+    text-align: center;
+}
+
+.contact-me img {
+    max-width: 500px;
 }

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julia Charfauros portfolio</title>
+    <title>Julia Charfauros | Portfolio</title>
     <!-- BOOTSTRAP CSS LINK -->
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin=<"anonymous"><link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- my CSS stylesheet -->
     <link rel="stylesheet" href="./CSS/main.css">
@@ -15,11 +15,11 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">hello.julia</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand" href="#myJumbotron"><h2>.jc.</h2></a>        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">                
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#aboutMe">about</a>
@@ -31,31 +31,35 @@
                     <a class="nav-link" href="#myArt">art</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../PortfolioProject/html/contact.html">contact</a>
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>                      
             </ul>                    
-        </div>
+          </div>
         </div>
     </nav>
-    
-    <section class="jumbotron">
+    <!-- JUMBOTRON -->
+    <section class="jumbotron" id="myJumbotron">
         <div class="wrapper">
           <div class="jumbo-greeting">
             <div class="jumbo-container">
               <div class="jumbo-text">
-                <h1><i>Hello</i>, my name is <b>Julia</b>.</h1>
+                <h1><i>Hello</i>, my name is <b id="jumbo-text-red">Julia</b>.</h1>
                 <p>WEB DESIGN & DEVELOPER</p>
-              
-                <!-- <h1 class="jumbo-header"><i>Hello</i>, my name is <b>Julia</b>.</h1>
-                <p class="jumbo-para">WEB DESIGN & DEVELOPER</p> -->                
               </div>    
             </div>
-          </div>          
+          </div>   
+          <div class="row justify-content-center">
+            <div class="col-3">
+              <!-- <h3>"You can't use up creativity. The more you use the more you have." -- Maya Angelou</h3> -->
+              <h4>"You can't use up creativity. The more you use the more you have." -- Maya Angelou</h4>
+            </div>
+          </div>       
         </div>
     </section>
-
+    <!-- ABOUT ME -->
     <div class="about-content" id="aboutMe">      
-        <h1>.All about me.</h1>
+        <h1>.all about me.</h1>
+        <img src="./assets/me.jpg" alt="me">
         <div class="container">          
           <div class="row justify-content-center">
             <div class="col-4">
@@ -77,38 +81,39 @@
             <div class="col-4">
               <h3>.fun facts.</h3>
               <div class="about-skills-b2">
-                <p>I'm a mom to cats, dogs and birds. I'm a lover of anime, gaming and comics. I'm also a lover of food, I'm a French fry connoiseur.
+                <p>I'm a mom to cats, dogs and birds. Lover of anime, gaming (ACNH,WoW) and comics. Foodie: I'm a French fry connoiseur. If you are in Indy, I recommend Korave's (not sponsered! :P) bulgogi poutine. I'm an artsy person (see below).
                 </p>
               </div>
             </div>
           </div>            
         </div>          
     </div>
-
+    <!-- PORTFOLIO -->
     <div class="portfolio" id="myPortfolio">
+      <h1>.projects.</h1>
       <div class="container">
-        <div class="row">
+        <div class="row" id="portfolio-row-one">
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="./assets/woahtrippy.jpg" class="card-img-top" alt="...">
+              <img src="./assets/kast.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text"><a href="https://jcharfauros.github.io/StaticLayout/">STATIC LAYOUT</a></p>
+                <p class="card-text"><a href="https://jcharfauros.github.io/StaticLayout/" target="_blank">STATIC LAYOUT</a></p>
               </div>        
             </div>
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="./assets/woahtrippy.jpg" class="card-img-top" alt="...">
+              <img src="./assets/cssCreature.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text"><a href="https://codepen.io/julia-charfauros/pen/OJpjjrb">CSS CREATURE</a></p>
+                <p class="card-text"><a href="https://codepen.io/julia-charfauros/full/OJpjjrb" target="_blank">CSS CREATURE</a></p>
               </div>        
             </div>
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-              <img src="./assets/woahtrippy.jpg" class="card-img-top" alt="...">
+              <img src="./assets/studioghib.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">API PROJECT 1</p>
+                <p class="card-text"><a href="https://jcharfauros.github.io/StudioGhibli-API/" target="_blank">API PROJECT 1</a></p>
               </div>        
             </div>
           </div>
@@ -144,33 +149,76 @@
     <!-- ART STUFF -->
     <div class="art" id="myArt">
       <div class="container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide justify-content-center" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/flowerbot.jpg" class="d-block w-100"  alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/Octocatus.PNG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/kittysaur.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/woahtrippy.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/murkie.PNG" class="d-block w-100" alt="...">
+        <h1>.some art.</h1>
+        <div class="row">
+          <div class="col-3">
+            <img src="./assets/toki2.png" alt="Hellojules" id="art-section-img">
+          </div>
+          <div class="col-9">
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide justify-content-center" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/flowerbot.jpg" class="d-block w-100"  alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/Octocatus.PNG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/ink1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/kittysaur.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/ink2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/woahtrippy.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/ink3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/murkie.PNG" class="d-block w-100" alt="...">
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
     <!-- CONTACT SECTION -->
-    <div class="art" id="contact">
+    <div class="contact-me" id="contact">
       <div class="container">
-        
-        
-      
+        <div class="row">
+          <div class="col-7">
+            <h1>.let's connect.</h1>
+            <form id="contact-form">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form1" class="form-control" placeholder="What may I call you?"/>
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>        
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form2" class="form-control" placeholder="Your email goes in here..."/>
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>        
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form3" rows="4" placeholder="Tell me something nice..."></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>                  
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light btn-lg btn-block mb-4">Send</button>
+          </form>      
+          </div>
+          <div class="col-5">
+            <img src="./assets/Hellojules.png" alt="Hellojules">
+          </div>
+        </div>
       </div>
     </div>
       <!-- FOOTER -->
@@ -195,7 +243,6 @@
           <!-- Section: Social media -->
       </div>
         <!-- Grid container -->
-
       
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
