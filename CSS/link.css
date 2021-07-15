@@ -1,0 +1,11 @@
+a:link {
+    text-decoration: none;
+    /* font-size: 18px;
+    font-weight: bolder; */
+    color: var(--green);
+}
+
+a:hover {
+    text-decoration: underline wavy;
+    color: var(--peach);
+}

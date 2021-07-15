@@ -30,15 +30,15 @@
 
 .about-skills-b { 
     font-family: var(--font-one);
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 22px;
     text-align: justify;
 
 }
 
 .about-skills-b2 { 
     font-family: var(--font-one);
-    font-size: 22px;
+    font-size: 18px;
     line-height: 22px;
     text-align: left;
 
@@ -49,7 +49,7 @@
     color: var(--peach);
     align-items: center;
     text-align: center;    
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;   
 }
 
