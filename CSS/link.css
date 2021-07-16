@@ -1,3 +1,8 @@
+a {
+    font-size: larger;
+    color: cadetblue;
+}
+
 a:link {
     text-decoration: none;
     /* font-size: 18px;

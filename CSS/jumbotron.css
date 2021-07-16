@@ -1,11 +1,3 @@
-/* OLD
-    .jumbotron {
-    background: url(../assets/shoes.jpg) fixed;
-    background-color: var(--eggplant);
-    background-size: cover;
-    height: 100vh;    
-} */
-
 .jumbotron {
     background: linear-gradient(
         rgba(245, 109, 233, 0.15), /*opaque color */
@@ -25,6 +17,7 @@
 .jumbo-container {
     padding-top: 10%;
     padding-bottom: 10%;
+    padding-left: 20px;
 }
 
 
@@ -36,17 +29,22 @@
 }
 
 #jumbo-text-red {
+    font-size: 1em;
+    font-family: var(--font-two);
+    letter-spacing: 5px;
+    color: var(--blush);
     text-shadow: 2px 2px var(--red);
     
 }
 
-.jumbo-text p {
+#jumbo-title p {
+    line-height: 40px;
     font-size: 36px;
     font-weight: bold;
     font-family: var(--font-two);
     font-style: italic;
     color: var(--eggplant);
-    text-shadow: 2px 2px var(--offWhite);
+    text-shadow: 2px 2px var(--peach);
 }
 
 .jumbotron h3, h4 {
@@ -60,9 +58,7 @@ h4 span {
 
 /* ANIMATION */
 .jumbo-greeting {
-    /* width: 100px;
-    height: 100px; */
-    position: relative;    
+    position:relative;    
     animation-name: greeting;
     animation-duration: 7s;
 }
