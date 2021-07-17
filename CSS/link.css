@@ -11,6 +11,14 @@ a:link {
 }
 
 a:hover {
-    text-decoration: underline wavy;
+    /* text-decoration: underline wavy; */
     color: var(--peach);
+    background-color: var(--green);
+}
+
+footer a:hover {
+    background-color: transparent;
+    position: relative;
+    top: -15px;
+    left: -25px;    
 }
